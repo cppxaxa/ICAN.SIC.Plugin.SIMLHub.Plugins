@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMLHub_Test", "SIMLHub_Test\SIMLHub_Test.csproj", "{262C2924-B45F-4DB2-9EE3-4A78AEB7FEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot", "ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csproj", "{6A40EA9E-3062-45F2-A16B-EC6DEC9680AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp", "ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj", "{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{262C2924-B45F-4DB2-9EE3-4A78AEB7FEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262C2924-B45F-4DB2-9EE3-4A78AEB7FEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262C2924-B45F-4DB2-9EE3-4A78AEB7FEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262C2924-B45F-4DB2-9EE3-4A78AEB7FEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A40EA9E-3062-45F2-A16B-EC6DEC9680AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A40EA9E-3062-45F2-A16B-EC6DEC9680AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A40EA9E-3062-45F2-A16B-EC6DEC9680AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A40EA9E-3062-45F2-A16B-EC6DEC9680AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
