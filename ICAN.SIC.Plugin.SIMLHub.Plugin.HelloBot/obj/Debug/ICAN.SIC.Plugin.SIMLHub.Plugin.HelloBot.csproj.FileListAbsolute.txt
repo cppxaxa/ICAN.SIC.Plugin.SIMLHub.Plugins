@@ -7,3 +7,13 @@ c:\users\cppxaxa_2\documents\visual studio 2013\Projects\SIMLHub_Test\ICAN.SIC.P
 c:\users\cppxaxa_2\documents\visual studio 2013\Projects\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csprojResolveAssemblyReference.cache
 c:\users\cppxaxa_2\documents\visual studio 2013\Projects\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.dll
 c:\users\cppxaxa_2\documents\visual studio 2013\Projects\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.dll
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\Syn.Bot.xml
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\Syn.EmotionML.xml
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\Syn.VA.xml
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csprojResolveAssemblyReference.cache
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csproj.CoreCompileInputs.cache
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.dll
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb

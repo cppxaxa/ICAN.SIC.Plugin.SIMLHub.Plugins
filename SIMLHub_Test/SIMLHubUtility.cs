@@ -46,7 +46,7 @@ namespace ICAN.SIC.Plugin.SIMLHub
                 string indexSimlFilePath = Path.Combine(directoryName, "IndexAdapter.dll");
                 if (File.Exists(indexSimlFilePath))
                 {
-                    result.Add(Path.GetFullPath(indexSimlFilePath));
+                    result.Add(indexSimlFilePath);
                 }
             }
 

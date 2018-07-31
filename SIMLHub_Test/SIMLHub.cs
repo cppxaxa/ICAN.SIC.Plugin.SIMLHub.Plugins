@@ -38,7 +38,7 @@ namespace ICAN.SIC.Plugin.SIMLHub
             }
         }
 
-        public SIMLHub()
+        public SIMLHub() : base("SIMLHub")
         {
             bot = new SimlBot();
 
@@ -98,9 +98,9 @@ namespace ICAN.SIC.Plugin.SIMLHub
 
             Console.WriteLine("PrintMessage: " + result.BotMessage);
 
-            IBotResponse botResponse = new ICAN.SIC.Plugin.SIMLHub.DataTypes.BotResponse(result);
+            IBotResult botResponse = new ICAN.SIC.Plugin.SIMLHub.DataTypes.BotResult(result);
 
-            hub.Publish<IBotResponse>(botResponse);
+            hub.Publish<IBotResult>(botResponse);
         }
     }
 }
