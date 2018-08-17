@@ -47,3 +47,4 @@ D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\bin\Debug\Syn.VA.xml
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.exe
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.pdb
+D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.csprojResolveAssemblyReference.cache
