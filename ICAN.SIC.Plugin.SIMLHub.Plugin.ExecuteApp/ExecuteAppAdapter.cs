@@ -12,10 +12,14 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp
 {
     public class ExecuteAppAdapter : IAdapter
     {
-        public XName TagName { get {
-            XNamespace ns = "http://example.com/namespace#example";
-            return ns + "Custom";
-        } }
+        public XName TagName
+        {
+            get
+            {
+                XNamespace ns = "http://example.com/namespace#example";
+                return ns + "Custom";
+            }
+        }
         public bool IsRecursive { get { return true; } }
         public string Evaluate(Context parameter)
         {

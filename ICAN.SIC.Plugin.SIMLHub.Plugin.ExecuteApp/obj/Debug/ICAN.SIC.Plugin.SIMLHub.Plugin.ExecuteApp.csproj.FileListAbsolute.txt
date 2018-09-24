@@ -35,3 +35,21 @@ D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debu
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Jint.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Newtonsoft.Json.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Bot.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.EmotionML.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Log.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Oryzer.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Utilities.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.VA.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.WordNet.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Newtonsoft.Json.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Bot.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.EmotionML.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.VA.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csprojResolveAssemblyReference.cache
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb

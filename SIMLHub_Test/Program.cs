@@ -1,7 +1,5 @@
 ﻿using ICAN.SIC.Abstractions.IMessageVariants;
 using ICAN.SIC.Plugin.SIMLHub;
-using Syn.Bot.Siml;
-using Syn.Bot.Siml.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -48,3 +48,26 @@ D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.csproj.CoreCom
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.exe
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.pdb
 D:\Projects\ICAN\SIMLHub_Test\SIMLHub_Test\obj\Debug\SIMLHub_Test.csprojResolveAssemblyReference.cache
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\SIMLHub_Test.exe.config
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\obj\Debug\SIMLHub_Test.exe
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\obj\Debug\SIMLHub_Test.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\obj\Debug\SIMLHub_Test.csprojResolveAssemblyReference.cache
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\SIMLHub_Test.exe
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\SIMLHub_Test.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\ICAN.SIC.Abstractions.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\ICAN.SIC.Plugin.SIMLHub.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Jint.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Newtonsoft.Json.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.Bot.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.EmotionML.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.Log.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.Oryzer.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.Utilities.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.VA.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.WordNet.dll
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\ICAN.SIC.Abstractions.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\ICAN.SIC.Plugin.SIMLHub.pdb
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Newtonsoft.Json.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.Bot.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.EmotionML.xml
+J:\Project ICAN\ICAN.SIC.Plugin.SIMLHub.Plugin-HelloBot-ExecuteApp\SIMLHub_Test\bin\Debug\Syn.VA.xml
