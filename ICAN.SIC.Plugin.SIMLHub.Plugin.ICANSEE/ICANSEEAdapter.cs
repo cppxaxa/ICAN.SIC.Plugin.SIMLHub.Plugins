@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace ICAN.SIC.Plugin.SIMLHub.Plugin.PyTaskExecutionServiceConnector
+namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
 {
-    public class PyTaskExecutionServiceConnectorAdapter : IAdapter
+    public class ICANSEEAdapter : IAdapter
     {
         public bool IsRecursive { get { return true; } }
 
@@ -18,7 +18,7 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.PyTaskExecutionServiceConnector
         {
             get
             {
-                XNamespace ns = "http://ican.sic/namespace#ptesc";
+                XNamespace ns = "http://ican.sic/namespace#icansee";
                 return ns + "Parameter";
             }
         }

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAN.SIC.Plugin.SIMLHub.Plu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp", "ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj", "{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyTaskExecutionServiceConnector", "PyTaskExecutionServiceConnector\PyTaskExecutionServiceConnector.csproj", "{C11CE9EF-52C7-4A7B-810E-18CDDD0FFDFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE", "ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csproj", "{FBBB88E8-86DD-4FB2-AE61-1DA0A9A9994C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E733752A-B3C3-4AF8-82CC-0586D0FA6F29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C11CE9EF-52C7-4A7B-810E-18CDDD0FFDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C11CE9EF-52C7-4A7B-810E-18CDDD0FFDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C11CE9EF-52C7-4A7B-810E-18CDDD0FFDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C11CE9EF-52C7-4A7B-810E-18CDDD0FFDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBB88E8-86DD-4FB2-AE61-1DA0A9A9994C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBB88E8-86DD-4FB2-AE61-1DA0A9A9994C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBB88E8-86DD-4FB2-AE61-1DA0A9A9994C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBB88E8-86DD-4FB2-AE61-1DA0A9A9994C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

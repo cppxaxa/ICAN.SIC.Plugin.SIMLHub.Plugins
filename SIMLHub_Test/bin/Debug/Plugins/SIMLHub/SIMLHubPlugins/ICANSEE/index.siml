@@ -1,10 +1,10 @@
 <Siml>
-	<Concept Name="PTESC" xmlns:ptesc="http://ican.sic/namespace#ptesc">
+	<Concept Name="Introduction" xmlns:icansee="http://ican.sic/namespace#icansee">
     	
 		<Model>
 			<Pattern>Connect camera *</Pattern>
 			<Response>
-				<ptesc:Parameter><Match/></ptesc:Parameter>
+				<icansee:Parameter><Match/></icansee:Parameter>
 				Connecting camera id <Match/>
 			</Response>
 		</Model>

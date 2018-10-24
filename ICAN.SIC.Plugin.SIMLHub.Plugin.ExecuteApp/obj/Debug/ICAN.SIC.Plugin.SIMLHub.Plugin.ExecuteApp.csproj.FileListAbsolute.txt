@@ -49,7 +49,6 @@ D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debu
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Bot.xml
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.EmotionML.xml
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.VA.xml
-D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csprojResolveAssemblyReference.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb

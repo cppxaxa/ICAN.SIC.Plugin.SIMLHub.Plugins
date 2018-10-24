@@ -28,7 +28,6 @@ D:\Projects\ICAN\h\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debu
 D:\Projects\ICAN\h\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb
-D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csprojResolveAssemblyReference.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot.pdb
