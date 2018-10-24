@@ -16,9 +16,12 @@ namespace SIMLHub_Test
         static void Main(string[] args)
         {
             SIMLHub simlHub = new SIMLHub();
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Open notepad"));
 
             Console.WriteLine("Adapter count: " + simlHub.AdapterCount);
+
+
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Connect camera 0"));
+            //simlHub.Hub.Publish<IUserResponse>(new UserResponse("Open notepad"));
 
             Console.WriteLine("Done");
             Console.Read();

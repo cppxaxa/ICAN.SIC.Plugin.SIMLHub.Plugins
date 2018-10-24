@@ -43,7 +43,7 @@ namespace ICAN.SIC.Plugin.SIMLHub
             bot = new SimlBot();
 
             // Soon it will be substracted
-            this.adapterCount = bot.Adapters.Count;
+            this.adapterCount = 0;
 
             // Add all adapters
             pluginAdapterPathAndTypes = helper.GetAllSIMLHubPluginIndexAdapterPathAndTypes();
@@ -62,16 +62,16 @@ namespace ICAN.SIC.Plugin.SIMLHub
                         if (adapter != null)
                         {
                             bot.Adapters.Add(adapter);
+                            this.adapterCount++;
                         }
                     }
-                    catch { /*Ignore*/ }
+                    catch (Exception ex) { /*Ignore*/
+                        Console.WriteLine("Exception: " + ex.Message);
+                    }
                 }
             }
 
             Console.WriteLine("success");
-
-            // Now final value is set
-            this.adapterCount = bot.Adapters.Count - this.adapterCount;
 
             // Add all index.siml files
             Console.Write("[SIMLHub] Index siml merge : ");
