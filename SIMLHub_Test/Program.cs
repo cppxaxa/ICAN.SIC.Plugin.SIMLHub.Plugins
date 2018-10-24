@@ -13,10 +13,12 @@ namespace SIMLHub_Test
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("Press any key to continue ...");
+            //Console.Read();
+            //Console.Read();
             SIMLHub simlHub = new SIMLHub();
             simlHub.Hub.Publish<IUserResponse>(new UserResponse("Open notepad"));
-
-            Console.WriteLine("Adapter count: " + simlHub.AdapterCount);
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Connect camera 0"));
 
             Console.WriteLine("Done");
             Console.Read();
