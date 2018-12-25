@@ -60,7 +60,7 @@ namespace ICAN.SIC.Plugin.SIMLHub
                         IAdapter adapter = (IAdapter)assembly.CreateInstance(typename);
 
                         AbstractPlugin simlHubPlugin = (AbstractPlugin)adapter;
-                        simlHubPlugin.Hub.PassThrough(this.Hub);
+                        this.Hub.PassThrough(simlHubPlugin.Hub);
 
                         // Add to bot in not null
                         if (adapter != null)
