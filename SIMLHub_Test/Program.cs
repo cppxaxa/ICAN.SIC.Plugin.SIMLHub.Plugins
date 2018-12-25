@@ -13,14 +13,24 @@ namespace SIMLHub_Test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
+
             SIMLHub simlHub = new SIMLHub();
             simlHub.Hub.Subscribe<IBotResult>(PrintBotResult);
 
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Connect camera 0"));
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run process 0"));
+            simlHub.Hub.Subscribe<IUserResponse>(PrintUserResponse);
+
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Execute preset Preset1 with camera 2"));
+            // simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run process 0"));
 
             Console.WriteLine("Done");
             Console.Read();
+        }
+
+        static void PrintUserResponse(IUserResponse userResponse)
+        {
+            Console.WriteLine("UserResponse: " + userResponse.Text);
         }
 
         static void PrintBotResult(IBotResult botResult)

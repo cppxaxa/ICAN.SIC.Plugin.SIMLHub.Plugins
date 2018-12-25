@@ -52,3 +52,6 @@ D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debu
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\ICAN.SIC.Abstractions.dll
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\ICAN.SIC.Abstractions.pdb
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csprojResolveAssemblyReference.cache

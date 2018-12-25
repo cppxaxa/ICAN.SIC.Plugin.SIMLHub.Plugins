@@ -1,4 +1,5 @@
-﻿using Syn.Bot.Siml;
+﻿using ICAN.SIC.Abstractions;
+using Syn.Bot.Siml;
 using Syn.Bot.Siml.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,13 @@ using System.Xml.Linq;
 
 namespace ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot
 {
-    public class CustomAdapter : IAdapter, ISIMLHubPlugin.ISIMLHubPlugin
+    public class CustomAdapter : AbstractPlugin, IAdapter
     {
+        public CustomAdapter(): base("SIMLHubPlugin.CustomAdapter")
+        {
+
+        }
+
         public XName TagName { get { return "Custom"; } }
         public bool IsRecursive { get { return true; } }
         public string Evaluate(Context parameter)

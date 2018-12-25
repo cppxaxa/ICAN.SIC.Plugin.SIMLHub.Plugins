@@ -1,4 +1,5 @@
-﻿using Syn.Bot.Siml;
+﻿using ICAN.SIC.Abstractions;
+using Syn.Bot.Siml;
 using Syn.Bot.Siml.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,13 @@ using System.Xml.Linq;
 
 namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
 {
-    public class ICANSEEAdapter : IAdapter
+    public class ICANSEEAdapter : AbstractPlugin, IAdapter
     {
+        public ICANSEEAdapter() : base("SIMLHubPlugin.ICANSEEAdapter")
+        {
+
+        }
+
         public bool IsRecursive { get { return true; } }
 
         public XName TagName
@@ -25,10 +31,26 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
 
         public string Evaluate(Context simlContext)
         {
-            new Process
+            string userFormattedParam = simlContext.Element.Value;
+
+            List<string> functionalParameters = new List<string>();
+
+            foreach (var param in userFormattedParam.Split(new string[] { " with camera " }, StringSplitOptions.None))
             {
-                StartInfo = new ProcessStartInfo("calc.exe")
-            }.Start();
+                functionalParameters.Add(param);
+            }
+
+            Console.Write("[ICANSEEAdapter] Requesting to execute preset for ");
+            foreach (var item in functionalParameters)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
+
+            // InputMessage message = new InputMessage(Abstractions.IMessageVariants.ICANSEE.ControlFunction.ExecutePreset, new List<string> { "Preset1", "2" });
+
+            InputMessage message = new InputMessage(Abstractions.IMessageVariants.ICANSEE.ControlFunction.ExecutePreset, functionalParameters);
+            Hub.Publish<InputMessage>(message);
 
             return string.Empty;
         }

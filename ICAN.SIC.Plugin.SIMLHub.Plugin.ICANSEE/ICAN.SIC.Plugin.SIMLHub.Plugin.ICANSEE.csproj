@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICAN.SIC.Abstractions">
+      <HintPath>..\..\ICAN.SIC\bin\Debug\ICAN.SIC.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Syn.Bot">
       <HintPath>..\ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot\bin\Debug\Syn.Bot.dll</HintPath>
     </Reference>
@@ -44,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICANSEEAdapter.cs" />
+    <Compile Include="InputMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,5 @@
-﻿using Syn.Bot.Siml;
+﻿using ICAN.SIC.Abstractions;
+using Syn.Bot.Siml;
 using Syn.Bot.Siml.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,13 @@ using System.Xml.Linq;
 
 namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp
 {
-    public class ExecuteAppAdapter : IAdapter
+    public class ExecuteAppAdapter : AbstractPlugin, IAdapter
     {
+        public ExecuteAppAdapter(): base("SIMLHubPlugin.ExecuteAppAdapter")
+        {
+
+        }
+
         public XName TagName
         {
             get
@@ -21,6 +27,7 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp
             }
         }
         public bool IsRecursive { get { return true; } }
+
         public string Evaluate(Context parameter)
         {
             var customElement = parameter.Element;

@@ -2,10 +2,10 @@
 	<Concept Name="Introduction" xmlns:icansee="http://ican.sic/namespace#icansee">
     	
 		<Model>
-			<Pattern>Connect camera *</Pattern>
+			<Pattern>Execute preset *</Pattern>
 			<Response>
 				<icansee:Parameter><Match/></icansee:Parameter>
-				Connecting camera id <Match/>
+				Requesting preset execution for <Match/>
 			</Response>
 		</Model>
 		
