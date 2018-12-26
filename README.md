@@ -1,4 +1,7 @@
-# ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot
-# ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp
+# ICAN.SIC.Plugin.SIMLHub.Plugins
+# ICAN.SIC.Plugin.SIMLHub.Plugins
 
-There are two plugins, HelloBot and ExecuteApp
+There are following plugins
+1. HelloBot
+2. ExecuteApp
+3. ICANSEE
