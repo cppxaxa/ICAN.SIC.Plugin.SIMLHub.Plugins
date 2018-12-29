@@ -14,3 +14,4 @@ D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\I
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.pdb
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\bin\Debug\ICAN.SIC.Abstractions.dll
 D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\bin\Debug\ICAN.SIC.Abstractions.pdb
+D:\Projects\ICAN\SIMLHub_Test\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csprojResolveAssemblyReference.cache

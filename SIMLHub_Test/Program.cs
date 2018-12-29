@@ -21,7 +21,7 @@ namespace SIMLHub_Test
 
             simlHub.Hub.Subscribe<IUserResponse>(PrintUserResponse);
 
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Execute preset Preset1 with camera 2"));
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run preset Preset1 with camera 2"));
             // simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run process 0"));
 
             Console.WriteLine("Done");

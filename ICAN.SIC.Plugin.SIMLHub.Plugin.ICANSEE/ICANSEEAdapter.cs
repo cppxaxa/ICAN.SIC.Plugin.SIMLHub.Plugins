@@ -35,21 +35,54 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
 
             List<string> functionalParameters = new List<string>();
 
-            foreach (var param in userFormattedParam.Split(new string[] { " with camera " }, StringSplitOptions.None))
+            int count = 0;
+            var textNode = simlContext.Element.FirstNode;
+            while (textNode != null)
             {
-                functionalParameters.Add(param);
+                string line = textNode.ToString();
+                foreach (var chunk in line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    functionalParameters.Add(chunk);
+                }
+
+                textNode = textNode.NextNode;
+
+                count++;
+                if (count > 100)
+                    break;
             }
 
-            Console.Write("[ICANSEEAdapter] Requesting to execute preset for ");
-            foreach (var item in functionalParameters)
+            if (functionalParameters.Count <= 0)
             {
-                Console.Write(item + " ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("[ICANSEEAdapter] No parameters provided. Kindly check <icansee:Parameter> tag under xpath //Siml/Concept/Model/Response. e.g. ControlFunction.ExecutePreset Preset1 2");
+                Console.ResetColor();
+                return string.Empty;
             }
-            Console.WriteLine();
+            else
+            {
+                Console.Write("[ICANSEEAdapter] Requesting: ");
+                foreach (var item in functionalParameters)
+                {
+                    Console.Write(item + " ");
+                }
+                Console.WriteLine();
+            }
+
+            bool success = Enum.TryParse(functionalParameters[0].Substring(functionalParameters[0].LastIndexOf('.') + 1), out Abstractions.IMessageVariants.ICANSEE.ControlFunction controlFunction);
+
+            if (!success)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("[ICANSEEAdapter] Unrecognized ControlFunction. Kindly check <icansee:Parameter> tag under xpath //Siml/Concept/Model/Response to match with 'ControlFunction' enum value. e.g. ControlFunction.ExecutePreset Preset1 2");
+                Console.ResetColor();
+                return string.Empty;
+            }
 
             // InputMessage message = new InputMessage(Abstractions.IMessageVariants.ICANSEE.ControlFunction.ExecutePreset, new List<string> { "Preset1", "2" });
 
-            InputMessage message = new InputMessage(Abstractions.IMessageVariants.ICANSEE.ControlFunction.ExecutePreset, functionalParameters);
+            functionalParameters = functionalParameters.GetRange(1, functionalParameters.Count - 1);
+            InputMessage message = new InputMessage(controlFunction, functionalParameters);
             Hub.Publish<InputMessage>(message);
 
             return string.Empty;
