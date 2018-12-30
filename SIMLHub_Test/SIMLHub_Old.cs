@@ -102,7 +102,7 @@ namespace ICAN.SIC.Plugin.SIMLHub
 
             Console.WriteLine("PrintMessage: " + result.BotMessage);
 
-            IBotResult botResponse = new BotResult(result);
+            IBotResult botResponse = new BotResult(result, message);
 
             hub.Publish<IBotResult>(botResponse);
         }
