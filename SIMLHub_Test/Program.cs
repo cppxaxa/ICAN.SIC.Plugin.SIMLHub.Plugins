@@ -21,7 +21,8 @@ namespace SIMLHub_Test
             simlHub.Hub.Subscribe<IUserResponse>(PrintUserResponse);
 
             //simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run preset Preset1 with camera 2"));
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("Unload camera 2 used with preset Preset1"));
+            //simlHub.Hub.Publish<IUserResponse>(new UserResponse("Unload camera 2 used with preset Preset1"));
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("What is the time now"));
             // simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run process 0"));
 
             Console.WriteLine("Done");
