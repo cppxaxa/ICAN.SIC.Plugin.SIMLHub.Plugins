@@ -1,0 +1,91 @@
+(AIRPLANE|APPLE|BACKPACK|BANANA|BASEBALL BAT|BASEBALL GLOVE|BEAR|BED|BENCH|BICYCLE|BIRD|BOAT|BOOK|BOTTLE|BOWL|BROCCOLI|BUS|CAKE|CAR|CARROT|CAT|CELL PHONE|CHAIR|CLOCK|COUCH|COW|CUP|DINING TABLE|DOG|DONUT|ELEPHANT|FIRE HYDRANT|FORK|FRISBEE|GIRAFFE|HAIR DRIER|HANDBAG|HORSE|HOT DOG|KEYBOARD|KITE|KNIFE|LAPTOP|MICROWAVE|MOTORCYCLE|MOUSE|ORANGE|OVEN|PARKING METER|PERSON|PIZZA|POTTED PLANT|REFRIGERATOR|REMOTE|SANDWICH|SCISSORS|SHEEP|SINK|SKATEBOARD|SKIS|SNOWBOARD|SPOON|SPORTS BALL|STOP SIGN|SUITCASE|SURFBOARD|TEDDY BEAR|TENNIS RACKET|TIE|TOASTER|TOILET|TOOTHBRUSH|TRAFFIC LIGHT|TRAIN|TRUCK|TV|UMBRELLA|VASE|WINE GLASS|ZEBRA)
+
+call me when number of person is more than 5
+tell me when number of person is less than 5
+
+
+<Item>airplane</Item>
+<Item>apple</Item>
+<Item>backpack</Item>
+<Item>banana</Item>
+<Item>baseball bat</Item>
+<Item>baseball glove</Item>
+<Item>bear</Item>
+<Item>bed</Item>
+<Item>bench</Item>
+<Item>bicycle</Item>
+<Item>bird</Item>
+<Item>boat</Item>
+<Item>book</Item>
+<Item>bottle</Item>
+<Item>bowl</Item>
+<Item>broccoli</Item>
+<Item>bus</Item>
+<Item>cake</Item>
+<Item>car</Item>
+<Item>carrot</Item>
+<Item>cat</Item>
+<Item>cell phone</Item>
+<Item>chair</Item>
+<Item>clock</Item>
+<Item>couch</Item>
+<Item>cow</Item>
+<Item>cup</Item>
+<Item>dining table</Item>
+<Item>dog</Item>
+<Item>donut</Item>
+<Item>elephant</Item>
+<Item>fire hydrant</Item>
+<Item>fork</Item>
+<Item>frisbee</Item>
+<Item>giraffe</Item>
+<Item>hair drier</Item>
+<Item>handbag</Item>
+<Item>horse</Item>
+<Item>hot dog</Item>
+<Item>keyboard</Item>
+<Item>kite</Item>
+<Item>knife</Item>
+<Item>laptop</Item>
+<Item>microwave</Item>
+<Item>motorcycle</Item>
+<Item>mouse</Item>
+<Item>orange</Item>
+<Item>oven</Item>
+<Item>parking meter</Item>
+<Item>person</Item>
+<Item>pizza</Item>
+<Item>potted plant</Item>
+<Item>refrigerator</Item>
+<Item>remote</Item>
+<Item>sandwich</Item>
+<Item>scissors</Item>
+<Item>sheep</Item>
+<Item>sink</Item>
+<Item>skateboard</Item>
+<Item>skis</Item>
+<Item>snowboard</Item>
+<Item>spoon</Item>
+<Item>sports ball</Item>
+<Item>stop sign</Item>
+<Item>suitcase</Item>
+<Item>surfboard</Item>
+<Item>teddy bear</Item>
+<Item>tennis racket</Item>
+<Item>tie</Item>
+<Item>toaster</Item>
+<Item>toilet</Item>
+<Item>toothbrush</Item>
+<Item>traffic light</Item>
+<Item>train</Item>
+<Item>truck</Item>
+<Item>tv</Item>
+<Item>umbrella</Item>
+<Item>vase</Item>
+<Item>wine glass</Item>
+<Item>zebra</Item>
+
+
+
+
+
