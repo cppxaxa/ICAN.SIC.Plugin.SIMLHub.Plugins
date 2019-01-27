@@ -3,6 +3,7 @@
 call me when number of person is more than 5
 tell me when number of person is less than 5
 
+call me when anything changes using preset Preset2 on cam 2
 
 <Item>airplane</Item>
 <Item>apple</Item>
