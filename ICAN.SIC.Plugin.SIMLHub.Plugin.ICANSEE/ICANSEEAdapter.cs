@@ -32,20 +32,17 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
 
         public string Evaluate(Context simlContext)
         {
-            Thread.Sleep(2000);
             string userFormattedParam = simlContext.Element.Value;
 
             List<string> functionalParameters = new List<string>();
 
             int count = 0;
             var textNode = simlContext.Element.FirstNode;
+            string fullString = string.Empty;
             while (textNode != null)
             {
                 string line = textNode.ToString();
-                foreach (var chunk in line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    functionalParameters.Add(chunk);
-                }
+                fullString += line;
 
                 textNode = textNode.NextNode;
 
@@ -53,6 +50,41 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
                 if (count > 100)
                     break;
             }
+
+            var stringTokens = fullString.Split(',');
+            int index = 0;
+
+            // State 1 - If you don't encounter [Python] string, just treat tokens as param
+            while (index < stringTokens.Length)
+            {
+                string unit = stringTokens[index];
+
+                if (unit.Trim().StartsWith("[Python]"))
+                    break;
+
+                functionalParameters.Add(unit);
+                index++;
+            }
+
+            // State 2 - If you encounter [Python], remove [Python] and treat subsequent units as one
+            string subsequentUnit = string.Empty;
+            if (index < stringTokens.Length)
+            {
+                string unit = stringTokens[index];
+                subsequentUnit = unit.Trim().Substring("[Python]".Length);
+                index++;
+            }
+            while (index < stringTokens.Length)
+            {
+                string unit = stringTokens[index];
+                subsequentUnit += "," + unit;
+                index++;
+            }
+
+            if (subsequentUnit.Trim() != string.Empty)
+                functionalParameters.Add(subsequentUnit);
+            // Done parsing inputs from siml
+
 
             if (functionalParameters.Count <= 0)
             {
