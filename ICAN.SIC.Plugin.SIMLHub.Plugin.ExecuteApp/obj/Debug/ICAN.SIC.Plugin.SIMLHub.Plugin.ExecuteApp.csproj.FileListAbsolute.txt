@@ -72,7 +72,8 @@ D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.Bot.xml
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.EmotionML.xml
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\bin\Debug\Syn.VA.xml
-D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csprojResolveAssemblyReference.cache
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.dll
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.pdb
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csprojAssemblyReference.cache
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp.csproj.CopyComplete

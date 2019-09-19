@@ -19,6 +19,12 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.HelloBot
 
         public XName TagName { get { return "Custom"; } }
         public bool IsRecursive { get { return true; } }
+
+        public override void Dispose()
+        {
+            
+        }
+
         public string Evaluate(Context parameter)
         {
             var customElement = parameter.Element;

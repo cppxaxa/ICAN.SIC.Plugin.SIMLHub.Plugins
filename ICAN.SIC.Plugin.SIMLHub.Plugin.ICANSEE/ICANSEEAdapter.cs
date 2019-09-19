@@ -30,6 +30,11 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE
             }
         }
 
+        public override void Dispose()
+        {
+            
+        }
+
         public string Evaluate(Context simlContext)
         {
             string userFormattedParam = simlContext.Element.Value;

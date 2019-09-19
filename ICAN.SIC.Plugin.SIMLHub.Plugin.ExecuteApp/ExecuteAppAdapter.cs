@@ -28,6 +28,11 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ExecuteApp
         }
         public bool IsRecursive { get { return true; } }
 
+        public override void Dispose()
+        {
+            
+        }
+
         public string Evaluate(Context parameter)
         {
             var customElement = parameter.Element;

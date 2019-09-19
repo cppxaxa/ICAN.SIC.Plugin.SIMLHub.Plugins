@@ -20,7 +20,12 @@ namespace SIMLHub_Test
             simlHub.Hub.Subscribe<IBotResult>(PrintBotResult);
             simlHub.Hub.Subscribe<IUserResponse>(PrintUserResponse);
 
-            simlHub.Hub.Publish<IUserResponse>(new UserResponse("remind me when person are more than 5"));
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("what is my coordinates"));
+            Console.ReadLine();
+
+            simlHub.Hub.Publish<IUserResponse>(new UserResponse("what is my coordinates"));
+
+            //simlHub.Hub.Publish<IUserResponse>(new UserResponse("remind me when person are more than 5"));
             //simlHub.Hub.Publish<IUserResponse>(new UserResponse("Run preset Preset1 with camera 2"));
             //simlHub.Hub.Publish<IUserResponse>(new UserResponse("Unload camera 2 used with preset Preset1"));
             //simlHub.Hub.Publish<IUserResponse>(new UserResponse("What is the time now"));

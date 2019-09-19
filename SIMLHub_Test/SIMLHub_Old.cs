@@ -106,5 +106,10 @@ namespace ICAN.SIC.Plugin.SIMLHub
 
             hub.Publish<IBotResult>(botResponse);
         }
+
+        public override void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

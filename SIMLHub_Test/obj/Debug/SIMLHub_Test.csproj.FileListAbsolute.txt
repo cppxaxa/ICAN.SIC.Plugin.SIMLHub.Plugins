@@ -115,7 +115,8 @@ D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\bin\Debug\Plugins\
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\bin\Debug\Plugins\SIMLHub\Syn.Bot.xml
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\bin\Debug\Plugins\SIMLHub\Syn.EmotionML.xml
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\bin\Debug\Plugins\SIMLHub\Syn.VA.xml
-D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.csprojResolveAssemblyReference.cache
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.exe
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.pdb
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.csproj.CopyComplete
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\SIMLHub_Test\obj\Debug\SIMLHub_Test.csprojAssemblyReference.cache

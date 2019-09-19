@@ -31,4 +31,5 @@ D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csproj.CoreCompileInputs.cache
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.dll
 D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.pdb
-D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csprojResolveAssemblyReference.cache
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csproj.CopyComplete
+D:\Projects\ICAN\ICAN.SIC.Plugin.SIMLHub.Plugins\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE\obj\Debug\ICAN.SIC.Plugin.SIMLHub.Plugin.ICANSEE.csprojAssemblyReference.cache
