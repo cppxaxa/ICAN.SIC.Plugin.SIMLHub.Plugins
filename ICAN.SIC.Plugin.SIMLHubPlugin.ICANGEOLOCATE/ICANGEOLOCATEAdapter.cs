@@ -37,6 +37,33 @@ namespace ICAN.SIC.Plugin.SIMLHub.Plugin.ICANGEOLOCATE
         {
             string input = simlContext.Element.Value;
 
+            string waitingMessage = simlContext.Element.PreviousNode.ToString();
+            string[] breakWaitingMessage = waitingMessage.Split(',');
+
+            List<string> paramsProvided = null;
+
+            // May have params
+            if (breakWaitingMessage.Length > 1)
+            {
+                // check if the first element ends with "params"
+                if (breakWaitingMessage[0].Trim().ToLower().EndsWith("params"))
+                {
+                    paramsProvided = new List<string>();
+
+                    for (int i = 1; i < breakWaitingMessage.Length; i++)
+                        paramsProvided.Add(breakWaitingMessage[i].Trim());
+                }
+            }
+
+            // Append if params provided
+            if (paramsProvided != null)
+            {
+                foreach (var param in paramsProvided)
+                {
+                    input += "," + param;
+                }
+            }
+
             GeoLocationRequest request = new GeoLocationRequest(input);
             hub.Publish<GeoLocationRequest>(request);
 
